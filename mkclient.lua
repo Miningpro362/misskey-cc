@@ -1,5 +1,5 @@
 local server = "mk.hellholesys.tk"
-local token = "W2WKgW1xx3anEIwMZaPHm249TBnD3GQO"
+local token = ""
 
 local conn = http.websocket("wss://"..server.."/streaming?i="..token)
 
